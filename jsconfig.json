@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "checkJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["src/**/*", "prisma/**/*", "index.js"],
+  "exclude": ["node_modules", "dist"]
+}

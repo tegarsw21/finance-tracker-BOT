@@ -25,6 +25,7 @@ async function startSock() {
     }
     if (connection === "close") {
       if (
+        // @ts-ignore
         lastDisconnect?.error?.output?.statusCode !== DisconnectReason.loggedOut
       ) {
         startSock();

@@ -1,5 +1,5 @@
-// @ts-nocheck
 import { createRequire } from "module";
+import { useMultiFileAuthState, fetchLatestBaileysVersion, makeWASocket, DisconnectReason } from "@whiskeysockets/baileys";
 const require = createRequire(import.meta.url);
 const qrcode = require("qrcode-terminal");
 
